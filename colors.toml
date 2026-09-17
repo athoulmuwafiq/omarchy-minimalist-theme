@@ -1,0 +1,36 @@
+mode = "dark"
+
+# Primary Accents & Selection (macOS Space Gray Style)
+accent = "#ffffff"
+selection = "#38383e"
+muted = "#63636e"
+
+# Backgrounds (macOS Space Gray / Graphite Palette)
+background = "#212124"
+dark_background = "#1a1a1d"
+darker_background = "#141416"
+lighter_background = "#2b2b2f"
+
+# Foregrounds (Crisp Apple-style typography)
+foreground = "#f4f4f6"
+dark_foreground = "#73737c"
+light_foreground = "#a1a1a6"
+bright_foreground = "#ffffff"
+
+# Syntax / Accent Colors (Apple SF System Colors)
+red = "#ff6961"
+yellow = "#ffd426"
+orange = "#ff9f0a"
+green = "#30d158"
+cyan = "#64d2ff"
+blue = "#0a84ff"
+magenta = "#bf5af2"
+brown = "#a2845e"
+
+# Bright Variants
+bright_red = "#ff857d"
+bright_yellow = "#ffe066"
+bright_green = "#5ce07f"
+bright_cyan = "#8ee0ff"
+bright_blue = "#409cff"
+bright_magenta = "#d084f7"

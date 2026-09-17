@@ -1,0 +1,21 @@
+/* SwayOSD Jennara Theme - No border, rounded 14px */
+window:not(:backdrop),
+window:backdrop {
+    border: none;
+    border-width: 0;
+    border-radius: 14px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 12px;
+}
+
+window:not(:backdrop) #container,
+window:backdrop #container {
+    border: none;
+    border-width: 0;
+    border-radius: 14px;
+    background-color: #28282d;
+    padding: 12px;
+    background-clip: padding-box;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}

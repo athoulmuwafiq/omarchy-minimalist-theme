@@ -1,0 +1,12 @@
+# OS & Editor Artifacts
+.DS_Store
+*.swp
+*.swo
+*~
+.directory
+Thumbs.db
+
+# Temporary / Cache
+*.bak
+*.tmp
+.cache/

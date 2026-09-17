@@ -1,0 +1,18 @@
+/* GTK Jennara Theme - No border on popups, menus, tabs */
+popover, menu, .menu, popover.background {
+    border: none;
+    border-width: 0;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+}
+
+tab, tab:checked, tab:hover {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+notebook > header,
+notebook > header.top > tabs > tab {
+    border: none;
+}

@@ -1,0 +1,139 @@
+# Omarchy shell surfaces for Jennara Theme (No borders, fully minimalist & rounded)
+
+[bar]
+background       = "#212124"
+background-alpha = 1.0
+text             = "#f4f4f6"
+active           = "#ffffff"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "#ffffff"
+active-border-foreground = "#f4f4f6"
+
+[controls]
+normal-color              = "#f4f4f6"
+normal-fill-alpha         = 0.04
+normal-border             = "#f4f4f6"
+normal-border-width       = 0
+normal-border-alpha       = 0.0
+hover-cursor-color        = "#f4f4f6"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "#f4f4f6"
+hover-cursor-border-width = 0
+hover-cursor-border-alpha = 0.0
+focus-color               = "#f4f4f6"
+focus-fill-alpha          = 0.08
+focus-border              = "#f4f4f6"
+focus-border-width        = 0
+focus-border-alpha        = 0.0
+selected-color            = "#f4f4f6"
+selected-fill-alpha       = 0.18
+selected-border           = "#f4f4f6"
+selected-border-width     = 0
+selected-border-alpha     = 0.0
+pressed-fill-alpha        = 0.22
+selection-fill-alpha      = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+# Dropdowns, OSD, calendar, sound/network cards - NO BORDERS
+background       = "#28282d"
+background-alpha = 1.0
+text             = "#f4f4f6"
+border           = "hyprland.active-border"
+border-alpha     = 0.0
+border-width     = 0
+
+[tooltip]
+background       = "#28282d"
+background-alpha = 0.97
+text             = "#f4f4f6"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 0.0
+border-width     = 0
+
+[notifications]
+background       = "#28282d"
+background-alpha = 1.0
+text             = "#f4f4f6"
+border           = "hyprland.active-border"
+border-alpha     = 0.0
+border-width     = 0
+countdown        = "#ffffff"
+
+[launcher]
+background                = "#28282d"
+background-alpha          = 0.95
+text                      = "#f4f4f6"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 0.0
+border-width              = 0
+scrim                     = "#141416"
+scrim-alpha               = 0.5
+selected-background       = "#f4f4f6"
+selected-background-alpha = 0.08
+selected-text             = "#ffffff"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.0
+selected-border-width     = 0
+
+[menu]
+background                = "#28282d"
+background-alpha          = 1.0
+text                      = "#f4f4f6"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 0.0
+border-width              = 0
+scrim                     = "#141416"
+scrim-alpha               = 0.5
+selected-background       = "#f4f4f6"
+selected-background-alpha = 0.08
+selected-text             = "#ffffff"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.0
+selected-border-width     = 0
+
+[polkit]
+background       = "#28282d"
+background-alpha = 1.0
+text             = "#f4f4f6"
+text-error       = "#ff6961"
+border           = "hyprland.active-border"
+border-error     = "#ff6961"
+border-alpha     = 0.0
+border-width     = 0
+scrim            = "#141416"
+scrim-alpha      = 0.5
+accent           = "#ffffff"
+
+[lock]
+background       = "#212124"
+background-alpha = 0.8
+text             = "#f4f4f6"
+placeholder      = "#a1a1a6"
+text-error       = "#ff6961"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#ff6961"
+border-alpha     = 0.0
+border-width     = 0
+selection        = "#ffffff"
+selection-alpha  = 0.45
+
+[image-picker]
+scrim                   = "#141416"
+scrim-alpha             = 0.5
+text                    = "#f4f4f6"
+selected-border         = "#ffffff"
+selected-border-alpha   = 0.0
+unselected-border       = "#f4f4f6"
+unselected-border-alpha = 0.0
