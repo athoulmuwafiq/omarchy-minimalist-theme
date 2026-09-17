@@ -24,7 +24,7 @@
 Run the following command in your terminal:
 
 ```bash
-omarchy theme install https://github.com/<your-username>/omarchy-minimalist-theme.git
+omarchy theme install https://github.com/athoulmuwafiq/omarchy-minimalist-theme.git
 ```
 
 ### Method 2: Via Omarchy Menu
@@ -38,7 +38,7 @@ omarchy theme install https://github.com/<your-username>/omarchy-minimalist-them
 Clone or copy this repository directly to your Omarchy themes folder:
 
 ```bash
-git clone https://github.com/<your-username>/omarchy-minimalist-theme.git ~/.config/omarchy/themes/minimalist
+git clone https://github.com/athoulmuwafiq/omarchy-minimalist-theme.git ~/.config/omarchy/themes/minimalist
 omarchy-theme-set minimalist
 ```
 
