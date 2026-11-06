@@ -9,9 +9,7 @@
 ## Highlights
 
 - **macOS Space Gray Palette**: Dark neutral graphite canvas (`#212124`), elevated solid cards (`#28282d`), crisp Apple-style typography (`#f4f4f6`), and pure white highlights (`#ffffff`).
-- **Hairline Top Accent**: Ultra-thin 1px frosted-white rim on active windows that curves along the 14px rounded corners and disappears on inactive windows.
-- **Segmented Capsule Window Grouping**: Modern segmented pill bar tabs for grouped windows with solid opaque bodies, zero transparency, clean `Adwaita Sans` typography, and smooth capsule rounding.
-- **Natural Shadow Elevation**: Active windows are elevated with subtle, soft drop shadows without harsh dimming on inactive windows (`dim_inactive = false`), keeping all text 100% readable.
+- **Optional Hyprland Styling Example**: `hyprland.lua.example` documents the original hairline window accents, segmented capsule group tabs, and soft shadows. These settings are not applied by theme installation.
 - **Borderless Popups & Cards**: Launcher, status popups, notifications, volume OSD, and flyouts float cleanly with zero border lines (`border-width = 0`).
 - **Curated HD Wallpapers**: Hand-picked scenic mountain and ocean landscapes included in `backgrounds/`.
 
@@ -54,6 +52,12 @@ omarchy-theme-set minimalist
 
 Or open the interactive theme selector with `Super + Ctrl + Shift + Space` and choose **Minimalist**.
 
+### Hyprland configuration
+
+Omarchy generates the installed theme's `hyprland.lua` from `colors.toml` and discards a repository-provided file with that name. The palette in `colors.toml` is the source for the generated colors.
+
+The original window styling is preserved in [`hyprland.lua.example`](hyprland.lua.example) as documentation only. To use those optional settings, adapt them in your personal Hyprland configuration; installing this theme does not apply them. The preview includes that optional styling.
+
 ---
 
 ## Color Palette Overview
@@ -88,7 +92,7 @@ omarchy-theme-bg-next
 ## Supported Applications
 
 The theme integrates seamlessly with Omarchy templates across:
-- **Hyprland** (window borders, segmented group tabs, soft drop shadows)
+- **Hyprland** (generated palette colors; optional window styling documented separately)
 - **Omarchy Shell & Waybar** (borderless panels and popup cards)
 - **SwayOSD** (volume & brightness OSD)
 - **Terminal emulators** (Foot, Ghostty, Alacritty, Kitty)
